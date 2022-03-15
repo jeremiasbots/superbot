@@ -8,10 +8,4 @@
 
 # Creditos
 
-**Los creditos son a nombre de JereDev Team y son si utilizas este code tienes que modificar seriamente los comandos para no usar los creditos**
-
-**Los creditos si es un video o imagen tiene que tener una marca de agua con el icono de nuestro canal**
-
-**Si es en un bot en la presencia debe ir Creditos: JereDev Team | By: tu nombre xd**
-
-**Y eso es todo, en los codigos que vendemos no cuenta esto**
+**No hay que dar creditos siempre y cuando demuestres que tu aprendiste en los videos y sabes hacer otros comandos solo agradecenos por guiarte para hacer tu bot :D xd, lo que importa es que tu aprendas 😎 xd**

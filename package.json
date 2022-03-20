@@ -1,0 +1,24 @@
+{
+  "name": "superbot",
+  "version": "1.0.0",
+  "description": "**Este es el proyecto del bot del canal 😎 aqui encontraras todos los codes que hemos ido haciendo en el canal por favor suscribirse a nuestro canal y unirse al server de soporte**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiasbots/superbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiasbots/superbot/issues"
+  },
+  "homepage": "https://github.com/jeremiasbots/superbot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  }
+}

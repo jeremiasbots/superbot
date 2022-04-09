@@ -4,14 +4,17 @@
   "description": "**Este es el proyecto del bot del canal 😎 aqui encontraras todos los codes que hemos ido haciendo en el canal por favor suscribirse a nuestro canal y unirse al server de soporte**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "node-update": "npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH",
+    "node-clean": "rm -rf node_modules && rm package-lock.json && npm cache clear --force && npm cache clean --force && npm i",
+    "node-update-then-clean": "npm run node-update && npm run node-clean"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeremiasbots/superbot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "JeremiasBots",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jeremiasbots/superbot/issues"

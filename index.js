@@ -10,6 +10,7 @@ require("dotenv").config()
 
 client.on('ready', () => {
     console.log(`Sesion iniciada con node: ${process.version}`)
+    console.log(`Iniciando sesion con: ${client.user.username}`)
 })//Aqui definimos el evento ready con un console.log para que nos muestre un mensaje cuando inicie con la version de node
 
 //AVISO: para guardar cambios usa ctrl+s

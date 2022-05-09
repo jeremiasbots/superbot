@@ -11,6 +11,20 @@ require("dotenv").config()
 client.on('ready', () => {
     console.log(`Sesion iniciada con node: ${process.version}`)
     console.log(`Iniciando sesion con: ${client.user.username}`)
+
+    let estados = ['Comiendo papas', 'Comiendo perros']
+
+    let estadosdefinit = estados[Math.floor(Math.random() * estados.length)]
+
+    setInterval(() => {
+        client.user.setPresence({
+            activities: [{
+                name: estadosdefinit,
+                type: "PLAYING"
+            }],
+            status: "dnd"
+        })
+    }, 10000)
 })//Aqui definimos el evento ready con un console.log para que nos muestre un mensaje cuando inicie con la version de node
 
 //AVISO: para guardar cambios usa ctrl+s
